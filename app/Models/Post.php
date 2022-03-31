@@ -2,19 +2,19 @@
 
 namespace App\Models;
 
-use App\Traits\HasImage;
+//use App\Traits\HasImage;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 
 class Post extends Model
 {
-    use HasFactory, HasImage;
+    use HasFactory;
 
     protected $fillable = [
         'user_id',
         'title',
         'excerpt',
-        'body',
-        'image'
+        'body'
+//        'image'
     ];
 }

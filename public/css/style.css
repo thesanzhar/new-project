@@ -19,7 +19,7 @@ html {
   --text-color-2: #464646;
   --text-color-3: #9F9F9F;
   --text-color-4: #969696;
-  --main-color-1: #1D428A;
+  --main-color-1: #8a1d3b;
   --main-color-2: #B1B3B3;
   --bg-color-1: #FAEDDC;
   --bg-color-2: #F1FFFF;
@@ -36,10 +36,10 @@ body {
 }
 
 .bg-color-1 {
-  background: #1D428A;
+  background: #8a1d3b;
 }
 .bg-color-1:hover {
-  background: #17356f;
+  background: #64152b;
 }
 
 /* Swiper style */
@@ -78,7 +78,7 @@ body {
   line-height: 100%;
   color: var(--white-color);
 }
-/* 
+/*
 .header__lang-item {
   font-style: normal;
   font-weight: 400;
@@ -177,7 +177,7 @@ body {
   padding: 30px 0;
   margin: 0;
 }
-/* 
+/*
 .header__lang_adap {
   padding-bottom: 20px;
   border-bottom: 1px solid #526488;
@@ -265,7 +265,7 @@ body {
   .header__menu {
     display: block;
   }
-  .header__burger, 
+  .header__burger,
   .header__menu_adap {
     display: none;
   }
@@ -480,7 +480,7 @@ body {
 
 .mainSwiper .swiper-slide {
   width: 100%;
-  height: 601px; 
+  height: 601px;
 }
 
 .img-main {
@@ -501,7 +501,7 @@ body {
   line-height: 20px;
   font-size: 10px;
   color: #fff;
-  background-color: #0E3F8B;
+  background-color: #8a1d3b;
 }
 
 .swiper-pagination-1 .swiper-pagination-fraction {
@@ -528,7 +528,7 @@ body {
 .swiper-btn-prev-2-img:hover circle,
 .swiper-btn-next-2-img:hover circle {
   transition: 0.3s;
-  fill:#17356f;
+  fill:#8a1d3b;
 }
 
 
@@ -640,9 +640,9 @@ body {
     margin-right: 15px;
   }
 
-  .swiper-right-btn-1 [
+  .swiper-right-btn-1 {
     margin-left: 15px;
-  ]
+    }
 }
 
 @media (max-width: 400px) {
@@ -875,7 +875,7 @@ body {
   }
 }
 
-/* ======= section NEWS ======= */ 
+/* ======= section NEWS ======= */
 .news {
   background: var(--white-color);
   padding: 60px 0;
@@ -965,7 +965,7 @@ body {
 }
 
 .footer__up {
-  border-bottom: 1px solid #29386D;
+  border-bottom: 1px solid #7a1b35;
 }
 
 .footer__down {
@@ -1001,7 +1001,7 @@ body {
   font-weight: 400;
   font-size: 16px;
   line-height: 135%;
-  color: var(--white-color);  
+  color: var(--white-color);
 }
 
 .footer__logo {

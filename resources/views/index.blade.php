@@ -127,8 +127,14 @@
   <section class="electives" id="electives">
     <div class="container mx-auto">
       <div class="section__header mb-8 text-left">
-        <h2 class="section__title mb-4">Курстар</h2>
-        <h3 class="section__subtitle w-1/3"></h3>
+          <div class="section__header_up flex items-center justify-between ">
+              <h2 class="section__title">Курстар</h2>
+              <a href="/courses" class="section__button bg-color-1 text-white py-2 px-4 rounded">Толығырақ</a>
+          </div>
+          <div class="section__header_down">
+              <h3 class="section__subtitle w-1/3"></h3>
+          </div>
+
       </div>
       <div class="section__grid-2 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-7">
         <div class="section__items-2">

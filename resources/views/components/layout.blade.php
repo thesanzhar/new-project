@@ -4,14 +4,14 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="shortcut icon" href="img/icons/favicon.ico" type="image/x-icon">
+  <link rel="shortcut icon" href="/img/icons/favicon.ico" type="image/x-icon">
   <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"/>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
   <script defer src="https://unpkg.com/alpinejs@3.8.1/dist/cdn.min.js"></script>
   <!-- Style CSS -->
-  <link rel="stylesheet" href="css/style.css">
-  <link rel="stylesheet" href="build/tailwind.css">
-  <link rel="stylesheet" href="css/modal-video.min.css">
+  <link rel="stylesheet" href="/css/style.css">
+  <link rel="stylesheet" href="/build/tailwind.css">
+  <link rel="stylesheet" href="/css/modal-video.min.css">
   <!-- Title -->
   <title>Басты бет - MOOC</title>
 
@@ -27,7 +27,7 @@
   <header class="header">
     <div class="container mx-auto flex items-center justify-between py-5">
       <a href="/" class="header__logo">
-        <img src="img/icons/logo.svg" alt="" class="img-logo">
+        <img src="/img/icons/logo.svg" alt="" class="img-logo">
       </a>
       <div class="header__menu">
         <ul class="header__menu-list flex ">
@@ -81,19 +81,19 @@
         </ul>
         <div class="header__social_adap container mx-auto flex">
           <a href="" class="header__social-fb mr-3">
-            <img src="img/icons/ic-social-fb.svg" alt="">
+            <img src="/img/icons/ic-social-fb.svg" alt="">
           </a>
           <a href="" class="header__social-ig mr-3">
-            <img src="img/icons/ic-social-ig.svg" alt="">
+            <img src="/img/icons/ic-social-ig.svg" alt="">
           </a>
           <a href="" class="header__social-wa mr-3">
-            <img src="img/icons/ic-social-wa.svg" alt="">
+            <img src="/img/icons/ic-social-wa.svg" alt="">
           </a>
           <a href="" class="header__social-tg mr-3">
-            <img src="img/icons/ic-social-tg.svg" alt="">
+            <img src="/img/icons/ic-social-tg.svg" alt="">
           </a>
           <a href="" class="header__social-tw">
-            <img src="img/icons/ic-social-tw.svg" alt="">
+            <img src="/img/icons/ic-social-tw.svg" alt="">
           </a>
         </div>
       </div>
@@ -113,7 +113,7 @@
     <div class="footer__up">
       <div class="container mx-auto flex flex-col lg:flex-row items-center text-center lg:text-left lg:items-start justify-between">
         <a href="/" class="footer__logo mb-5 lg:mb-0">
-          <img src="img/icons/logo.svg" alt="" class="img-logo-dark mx-auto lg:mx-0 mb-5">
+          <img src="/img/icons/logo.svg" alt="" class="img-logo-dark mx-auto lg:mx-0 mb-5">
           <!-- <p class="footer__logo-slogan">Школа доступного <br>высокотехнологического <br>образования</p> -->
         </a>
         <div class="footer__grid grid grid-cols-1 lg:grid-cols-3 gap-6 lg:gap-4 xl:gap-7">
@@ -141,11 +141,11 @@
               <li class="mb-2">Сб-Вс: Выходной</li>
             </ul> -->
             <div class="footer__social flex items-center justify-center lg:justify-start lg:justify-left">
-              <a href="" class="footer__social-item mr-3"><img src="img/icons/ic-social-fb.svg" alt=""></a>
-              <a href="" class="footer__social-item mr-3"><img src="img/icons/ic-social-ig.svg" alt=""></a>
-              <a href="" class="footer__social-item mr-3"><img src="img/icons/ic-social-wa.svg" alt=""></a>
-              <a href="" class="footer__social-item mr-3"><img src="img/icons/ic-social-tg.svg" alt=""></a>
-              <a href="" class="footer__social-item"><img src="img/icons/ic-social-tw.svg" alt=""></a>
+              <a href="" class="footer__social-item mr-3"><img src="/img/icons/ic-social-fb.svg" alt=""></a>
+              <a href="" class="footer__social-item mr-3"><img src="/img/icons/ic-social-ig.svg" alt=""></a>
+              <a href="" class="footer__social-item mr-3"><img src="/img/icons/ic-social-wa.svg" alt=""></a>
+              <a href="" class="footer__social-item mr-3"><img src="/img/icons/ic-social-tg.svg" alt=""></a>
+              <a href="" class="footer__social-item"><img src="/img/icons/ic-social-tw.svg" alt=""></a>
             </div>
           </div>
         </div>
@@ -154,16 +154,16 @@
     <div class="footer__down">
       <div class="container mx-auto flex flex-col lg:flex-row items-center justify-between">
         <p class="footer__copyright">MOOC © 2021</p>
-        <div class="footer__logo flex items-center">Сайт жасаушы<a href="#" class="ml-2 pt-1"><img src="img/icons/logo-developer.svg" alt=""></a></div>
+        <div class="footer__logo flex items-center">Сайт жасаушы<a href="#" class="ml-2 pt-1"><img src="/img/icons/logo-developer.svg" alt=""></a></div>
       </div>
     </div>
   </footer>
 
-  <script src="js/jquery-3.6.0.min.js"></script>
+  <script src="/js/jquery-3.6.0.min.js"></script>
   <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js" type="text/javascript"></script>
-  <script src="js/modal-video.min.js"></script>
+  <script src="/js/modal-video.min.js"></script>
   <script src="https://unpkg.com/imask"></script>
   <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
-  <script src="js/script.js"></script>
+  <script src="/js/script.js"></script>
 </body>
 </html>
